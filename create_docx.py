@@ -49,7 +49,7 @@ def generate_assignment_docx():
     p_git.paragraph_format.space_after = Pt(4)
     run_git_label = p_git.add_run("GIT REPO LINK:\n")
     run_git_label.bold = True
-    run_git_url = p_git.add_run("https://github.com/mubeen123uol/ABD-Assignment_No.03")
+    run_git_url = p_git.add_run("https://github.com/mubeen123uol/backend-assignment-03")
     run_git_url.font.color.rgb = RGBColor(0, 51, 153)
     run_git_url.underline = True
 

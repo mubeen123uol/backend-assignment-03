@@ -119,7 +119,7 @@ def build_pdf():
     # Git Repo Link
     story.append(Paragraph("GIT REPO LINK:", repo_header_style))
     story.append(Spacer(1, 2))
-    story.append(Paragraph("https://github.com/mubeen123uol/ABD-Assignment_No.03", repo_link_style))
+    story.append(Paragraph("https://github.com/mubeen123uol/backend-assignment-03", repo_link_style))
     story.append(Spacer(1, 8))
 
     story.append(HRFlowable(width="100%", thickness=1.5, color="black", spaceAfter=10))
